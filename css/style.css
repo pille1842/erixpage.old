@@ -123,3 +123,7 @@ a:hover {
 #license, #license * {
    font-size: 10pt;
 }
+
+#rss {
+    margin: 1em;
+}

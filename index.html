@@ -3,6 +3,6 @@ layout: default
 title: Willkommen auf Erixpage.de
 ---
 {% for post in site.posts limit:2 %}
-<h3>{{ post.date | date: "%d.%m.%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a></h3>
-<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="{{ post.url }}">Weiterlesen</a>]</p>
+<h3>{{ post.date | date: "%d.%m.%Y" }}: <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="{{ site.baseurl }}/{{ post.url }}">Weiterlesen</a>]</p>
 {% endfor %}

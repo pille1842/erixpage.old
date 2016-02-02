@@ -3,12 +3,12 @@ layout: default
 title: Blog-Archiv
 ---
 <p>
-    Hier findest du alle Blog-Posts in chronologisch absteigender Reihenfolge.
+    Hier findest du alle Blog-Posts in chronologisch absteigender Reihenfolge. Du kannst den <img src="{{ site.baseurl }}/assets/feed-icon-14x14.png" alt="">&nbsp;<a href="{{ site.baseurl }}/feed.xml">RSS-Feed</a> abonnieren, um dich jederzeit über neue Einträge auf dem laufenden halten zu lassen.
 </p>
 <ul>
 {% for post in site.posts %}
     <li>
-        {{ post.date | date: "%d.%m.%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.date | date: "%d.%m.%Y" }}: <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
     </li>
 {% endfor %}
 </ul>
