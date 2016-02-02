@@ -15,14 +15,19 @@
 
 p {
     text-align: justify;
-    margin: 1em;
+    margin: 1em 0;
     line-height: 150%;
     font-size: 14pt;
 }
 
 h1 {
     font-size: 28pt;
-    margin: 1em;
+    margin: 1em 0 0 0;
+}
+
+li {
+    margin: 0 1em;
+    list-style-type: square;
 }
 
 /**********************************************************
@@ -48,6 +53,7 @@ a:hover {
 
 #header {
     text-align: center;
+    margin: 0 0 2em 0;
 }
 
 #main-nav ul {
@@ -68,14 +74,22 @@ a:hover {
 }
 
 /**********************************************************
+ * BLOG POSTS
+ **********************************************************/
+
+.post-intro {
+    font-style: italic;
+}
+
+/**********************************************************
  * FOOTER AND LICENSING
  **********************************************************/
 
- #footer {
-    margin: 2em 0;
-    text-align: center;
- }
+#footer {
+   margin: 2em 0;
+   text-align: center;
+}
 
- #license {
-    font-size: 10pt;
- }
+#license {
+   font-size: 10pt;
+}

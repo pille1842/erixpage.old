@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog-Archiv
+---
+<p>
+    Hier findest du alle Blog-Posts in chronologisch absteigender Reihenfolge.
+</p>
+<ul>
+{% for post in site.posts %}
+    <li>
+        {{ post.date | date: "%d.%m.%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
