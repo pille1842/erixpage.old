@@ -1,0 +1,81 @@
+/**********************************************************
+ * BASIC STYLES
+ **********************************************************/
+
+* {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#site {
+    width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+    margin: 1em;
+    line-height: 150%;
+    font-size: 14pt;
+}
+
+h1 {
+    font-size: 28pt;
+    margin: 1em;
+}
+
+/**********************************************************
+ * LINKS
+ **********************************************************/
+
+a {
+    color: #800000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #880000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**********************************************************
+ * HEADLINE AND NAVIGATION
+ **********************************************************/
+
+#header {
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+}
+
+#main-nav li {
+    display: inline;
+    padding: 1em;
+}
+
+#main-nav li:before {
+    content: "[";
+}
+
+#main-nav li:after {
+    content: "]";
+}
+
+/**********************************************************
+ * FOOTER AND LICENSING
+ **********************************************************/
+
+ #footer {
+    margin: 2em 0;
+    text-align: center;
+ }
+
+ #license {
+    font-size: 10pt;
+ }
