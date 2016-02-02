@@ -4,14 +4,18 @@
 
 * {
     font-family: 'Helvetica', sans-serif;
-    font-size: 14pt;
     margin: 0;
     padding: 0;
+}
+
+.clear {
+    clear: both;
 }
 
 #site {
     width: 900px;
     margin: 0 auto;
+    font-size: 14pt;
 }
 
 p {
@@ -89,6 +93,11 @@ a:hover {
     content: "]";
 }
 
+.current {
+    text-decoration: underline;
+    color: #000 !important;
+}
+
 /**********************************************************
  * BLOG POSTS
  **********************************************************/
@@ -96,6 +105,10 @@ a:hover {
 .post-intro, .post-outro {
     font-style: italic;
     text-align: right;
+}
+
+.next {
+    float: right;
 }
 
 /**********************************************************
