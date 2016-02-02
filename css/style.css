@@ -13,9 +13,10 @@
 }
 
 #site {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     font-size: 14pt;
+    padding: .3em;
 }
 
 p {
@@ -74,6 +75,8 @@ a:hover {
 #header {
     text-align: center;
     margin: 0 0 2em 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 1em 0;
 }
 
 #main-nav ul {
@@ -83,6 +86,13 @@ a:hover {
 #main-nav li {
     display: inline;
     padding: 1em;
+}
+
+@media (max-width: 800px) {
+    #main-nav li {
+        display: block;
+        padding: 0;
+    }
 }
 
 #main-nav li:before {
@@ -117,7 +127,9 @@ a:hover {
 
 #footer {
    margin: 2em 0;
+   padding: 1em 0;
    text-align: center;
+   border-top: 1px solid #ccc;
 }
 
 #license, #license * {
