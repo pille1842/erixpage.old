@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Helvetica', sans-serif;
+    font-size: 14pt;
     margin: 0;
     padding: 0;
 }
@@ -15,14 +16,29 @@
 
 p {
     text-align: justify;
-    margin: 1em 0;
+    margin: .7em 0;
     line-height: 150%;
     font-size: 14pt;
 }
 
+h1, h2, h3, h4, h5 {
+    margin: .5em 0 .2em 0;
+}
+
 h1 {
     font-size: 28pt;
-    margin: 1em 0 0 0;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+h4 {
+    font-size: 14pt;
 }
 
 li {
@@ -77,8 +93,9 @@ a:hover {
  * BLOG POSTS
  **********************************************************/
 
-.post-intro {
+.post-intro, .post-outro {
     font-style: italic;
+    text-align: right;
 }
 
 /**********************************************************
@@ -90,6 +107,6 @@ a:hover {
    text-align: center;
 }
 
-#license {
+#license, #license * {
    font-size: 10pt;
 }

@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
-<p class="post-intro">Geschrieben von {{ page.author }} am {{ page.date | date: "%d.%m.%Y" }}</p>
+<p class="post-intro">{{ page.location }}, den {{ page.date | date: "%d.%m.%Y" }}</p>
 
 {{ content }}
+
+<p class="post-outro">fecit {{ page.author }}</p>
