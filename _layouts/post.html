@@ -3,7 +3,9 @@ layout: default
 ---
 <p class="post-intro">{{ page.location }}, den {{ page.date | date: "%d.%m.%Y" }}</p>
 
-{{ content }}
+<div id="post-content">
+    {{ content }}
+</div>
 
 <p class="post-outro">fecit {{ page.author }}</p>
 
