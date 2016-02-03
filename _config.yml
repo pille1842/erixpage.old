@@ -1,0 +1,25 @@
+baseurl: ''
+exclude: ['README.md']
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+navigation:
+    -
+        title: Startseite
+        url: index.html
+    -
+        title: Blog-Archiv
+        url: archiv.html
+    -
+        title: Kontakt
+        url: kontakt.html
+    -
+        title: Impressum
+        url: impressum.html
+    -
+        title: Datenschutz
+        url: datenschutz.html

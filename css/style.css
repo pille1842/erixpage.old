@@ -1,0 +1,141 @@
+/**********************************************************
+ * BASIC STYLES
+ **********************************************************/
+
+* {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#site {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 14pt;
+    padding: .3em;
+}
+
+p {
+    text-align: justify;
+    margin: .7em 0;
+    line-height: 150%;
+    font-size: 14pt;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: .5em 0 .2em 0;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+li {
+    margin: 0 1em;
+    list-style-type: square;
+}
+
+/**********************************************************
+ * LINKS
+ **********************************************************/
+
+a {
+    color: #800000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #880000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**********************************************************
+ * HEADLINE AND NAVIGATION
+ **********************************************************/
+
+#header {
+    text-align: center;
+    margin: 0 0 2em 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 1em 0;
+}
+
+#main-nav ul {
+    list-style-type: none;
+}
+
+#main-nav li {
+    display: inline;
+    padding: 1em;
+}
+
+@media (max-width: 800px) {
+    #main-nav li {
+        display: block;
+        padding: 0;
+    }
+}
+
+#main-nav li:before {
+    content: "[";
+}
+
+#main-nav li:after {
+    content: "]";
+}
+
+.current {
+    text-decoration: underline;
+    color: #000 !important;
+}
+
+/**********************************************************
+ * BLOG POSTS
+ **********************************************************/
+
+.post-intro, .post-outro {
+    font-style: italic;
+    text-align: right;
+}
+
+.next {
+    float: right;
+}
+
+/**********************************************************
+ * FOOTER AND LICENSING
+ **********************************************************/
+
+#footer {
+   margin: 2em 0;
+   padding: 1em 0;
+   text-align: center;
+   border-top: 1px solid #ccc;
+}
+
+#license, #license * {
+   font-size: 10pt;
+}
+
+#rss {
+    margin: 1em;
+}
