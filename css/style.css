@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
 .clear {
     clear: both;
 }
@@ -125,7 +129,7 @@ a:hover {
     text-align: center;
 }
 
-.post-content img {
+#post-content img {
     max-width: 100%;
 }
 
