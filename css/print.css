@@ -59,3 +59,7 @@ a, a:visited, a:hover {
 .github-fork-ribbon-wrapper {
     display: none;
 }
+
+#movement-links {
+    display: none;
+}

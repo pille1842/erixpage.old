@@ -9,7 +9,7 @@ layout: default
 
 <p class="post-outro">fecit {{ page.author }}</p>
 
-<p>
+<p id="movement-links">
 {% if page.previous %}
     <span class="previous">&larr; {{ page.previous.date | date: "%d.%m.%Y" }}: <a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
 {% endif %}
