@@ -1,0 +1,9 @@
+#!/bin/sh
+# Copy this to .git/hooks/pre-commit to enable automatic updating of the modification date
+# in files with a YAML preface matter (the "updated:" field).
+
+git diff --cached --name-status | grep "^M" | while read a b; do
+  cat $b | sed "/---.*/,/---.*/s/^updated:.*$/updated: $(date -u "+%Y-%m-%d %T %Z")/" > tmp
+  mv tmp $b
+  git add $b
+done
