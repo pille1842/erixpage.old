@@ -151,3 +151,31 @@ a:hover {
 #rss {
     margin: 1em;
 }
+
+#bottom-nav {
+    margin-bottom: 1em;
+}
+
+#bottom-nav ul {
+    list-style-type: none;
+}
+
+#bottom-nav li {
+    display: inline;
+    font-size: 10pt;
+}
+
+@media (max-width: 800px) {
+    #bottom-nav li {
+        display: block;
+        padding: 0;
+    }
+}
+
+#bottom-nav li:before {
+    content: "[";
+}
+
+#bottom-nav li:after {
+    content: "]";
+}

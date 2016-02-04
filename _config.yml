@@ -17,6 +17,7 @@ navigation:
     -
         title: Kontakt
         url: kontakt.html
+bottomnav:
     -
         title: Impressum
         url: impressum.html
