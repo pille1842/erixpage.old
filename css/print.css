@@ -1,0 +1,51 @@
+#site {
+    font-size: 12pt;
+}
+
+p {
+    text-align: justify;
+    margin: .7em 0;
+    line-height: 150%;
+    font-size: 12pt;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: .5em 0 .2em 0;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+h4 {
+    font-size: 12pt;
+}
+
+a, a:visited, a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#main-nav {
+    display: none;
+}
+
+#bottom-nav {
+    display: none;
+}
+
+#rss {
+    display: none;
+}
+
+.github-fork-ribbon-wrapper {
+    display: none;
+}
