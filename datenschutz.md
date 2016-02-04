@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Datenschutz
-updated: 2016-02-04 17:15:33 UTC
+updated: 2016-02-04 21:12:09 UTC
 ---
 Der Schutz deiner persönlichen Daten ist sehr wichtig. Ich möchte dich daher an dieser Stelle über die Datenschutz-Prinzipien meiner Website informieren. Grundlage bieten dafür die Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und andere datenschutzrechtliche Bestimmungen.
 
@@ -16,6 +16,15 @@ Nutzung und Zweck der Datenerhebung
 -----------------------------------
 
 Grundsätzlich ist die Angabe von personenbezogenen Daten für die Nutzung meiner Website nicht erforderlich. Bei der Nutzung meiner Website speichert der Server zu statistischen Zwecken Daten wie Betriebssystem, deinen Browsertyp, deine IP-Adresse, die zuvor aufgerufene Website (Referrer-URL) und die Uhrzeit. Diese Daten werden ausschließlich zu statistischen Zwecken erhoben, um meinen Internetauftritt weiter zu optimieren. Zudem behalte ich mir vor, diese Daten im Falle eines Systemmissbrauchs zu verwenden, um die Gründe und den Auslöser des Missbrauchs zu ermitteln.
+
+Diese Website bindet ein "GitHub Fork Ribbon" ein. Die hierfür erforderlichen Dateien werden von deinem Browser aus dem sog. "Content Delivery Network", also dem Rechnerverbund, von [Cloudflare.com](https://www.cloudflare.com/) geladen. Die Datenschutzerklärung von Cloudflare.com findest du [hier](https://www.cloudflare.com/security-policy/) (englisch). Bei Nachfragen kannst du dich an die folgende Adresse wenden:
+
+Attention: Trust and Safety\\
+CloudFlare, Inc.\\
+665 Third Street, Suite 200\\
+San Francisco, CA 94107\\
+Vereinigte Staaten von Amerika\\
+[privacy@cloudflare.com](mailto:privacy@cloudflare.com)
 
 Es wird darauf hingewiesen, dass hinsichtlich der Datenübertragung über das Internet (z.B. bei der Kommunikation per E-Mail) keine sichere Übertragung gewährleistet ist. Empfindliche Daten sollten daher entweder gar nicht oder nur über eine sichere Verbindung bzw. verschlüsselt übertragen werden.
 
