@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Datenschutz
+updated: 2016-02-04 17:15:33 UTC
 ---
 Der Schutz deiner persönlichen Daten ist sehr wichtig. Ich möchte dich daher an dieser Stelle über die Datenschutz-Prinzipien meiner Website informieren. Grundlage bieten dafür die Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und andere datenschutzrechtliche Bestimmungen.
 
