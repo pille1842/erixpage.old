@@ -2,7 +2,7 @@
 title: Kleine Schnitzelkunde für Südländer
 author: Eric Haberstroh
 location: Rastatt
-updated: 2016-02-04 17:07:23 UTC
+updated: 2016-02-04 17:08:56 UTC
 ---
 Da im Namen dieses Blogs schon das Wort “korpulent” steckt<sup>[1](#footnote1)</sup>, soll es hier ja immer auch ein bisschen um Essen gehen. Gutes Essen, natürlich. Manchmal wurde hier schon über die Speisezubereitung am heimischen Herd berichtet; heute machen wir einen etwas größeren Ausflug in unser Nachbarland Österreich.
 
