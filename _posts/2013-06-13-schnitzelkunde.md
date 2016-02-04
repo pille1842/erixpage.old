@@ -22,7 +22,7 @@ Es ist jedoch viel weniger das Problem, was auf dem Teller drauf ist, als was ni
 
 Nun ist man zu Gast in einem fremden Land und will sich nicht den Vorwurf gefallen lassen, man trauere nur seiner Heimat nach, statt die Köstlichkeiten seiner Gastgeber zu genießen. Man verzichtet also auf die Soßenbestellung. Stattdessen bedankt man sich höflich, nachdem die Kinnlade wieder hochgeklappt ist, und beginnt zu essen. Den Verzehr eines Schnitzels mit Reis muss man sich ungefähr so vorstellen:
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/LITRpwRtv0M" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/LITRpwRtv0M" allowfullscreen></iframe>
 
 Ein furztrockenes Stück paniertes Fleisch wird mit noch viel trockenerem Reis zusammen in den Mund geführt, der der Aufgabe, genügend Speichel für dieses Wüstendilemma zu produzieren, ob seiner badischen Herkunft nicht gewachsen ist. Man schluckt also das Schnitzel, das einem die Kehle zerkratzt, während es auf dem Weg zum Magen an zahllosen Reiskörnern vorbeikommt, die an allen Ecken und Enden des oberen Verdauungstraktes kleben geblieben sind. Nun versteht man auch endlich, wozu die Preiselbeeren da sind: Sie sind das einzige, was auf dem Teller eine halbwegs nicht sahara-ähnliche Konsistenz hat. Der Preiselbeervorrat ist schnell aufgebraucht, der Vorrat an G’spritztem auch, weil man verzweifelt bemüht ist, die heilende Wirkung von Flüssigkeit auf die schnitzel- und reiskornzerfetzte Speiseröhre einwirken zu lassen.
 
@@ -38,6 +38,6 @@ Ich weiß auch nicht, wie in Ungarn der G’spritzte schmeckt. Der Mensch ist ei
 
 Anmerkungen
 -----------
-<a name="footnote1"></a> <sup>1</sup>: Dieser Artikel erschien ursprünglich im RKKN-Kurier, dem Rastatter Korpulenten Korporierten Netz-Kurier.
+<a id="footnote1"></a> <sup>1</sup>: Dieser Artikel erschien ursprünglich im RKKN-Kurier, dem Rastatter Korpulenten Korporierten Netz-Kurier.
 
-<a name="footnote2"></a> <sup>2</sup>: In Österreich nennt man das "Bezirkshauptstadt".
+<a id="footnote2"></a> <sup>2</sup>: In Österreich nennt man das "Bezirkshauptstadt".
