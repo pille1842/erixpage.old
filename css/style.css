@@ -133,6 +133,14 @@ a:hover {
     max-width: 100%;
 }
 
+.link-read-on:before {
+    content: "[";
+}
+
+.link-read-on:after {
+    content: "]";
+}
+
 /**********************************************************
  * FOOTER AND LICENSING
  **********************************************************/

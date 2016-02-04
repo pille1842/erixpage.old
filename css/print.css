@@ -31,7 +31,17 @@ h4 {
 
 a, a:visited, a:hover {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+#post-content a:link:after, #post-content a:visited:after,
+#license-text-link:link:after, #license-text-link:visited:after,
+.link-post-headline:link:after, .link-post-headline:visited:after {
+    content:" [" attr(href) "] ";
+}
+
+.link-read-on {
+    display: none;
 }
 
 #main-nav {
