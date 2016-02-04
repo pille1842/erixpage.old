@@ -51,7 +51,7 @@
                 <div id="rss">
                     <a href="{{ site.baseurl }}/feed.xml"><img src="{{ site.baseurl }}/assets/feed-icon-28x28.png" alt="RSS-Feed"></a>
                 </div>
-                <div id="modified-date">Letzte Änderung: {{ page.updated }}
+                {% if page.updated %}<div id="modified-date">Letzte Änderung: {{ page.updated }}</div>{% endif %}
             </footer>
         </div>
 	<div class="github-fork-ribbon-wrapper left-bottom">
