@@ -2,6 +2,7 @@
 title: Of Monsters And Mash
 author: Eric Haberstroh
 location: Rastatt
+updated: 2016-02-04 17:14:21 UTC
 ---
 Seit geraumer Zeit stand fest, dass [Grace Jones](https://de.wikipedia.org/wiki/Grace_Jones) auf dem [Hop Farm Music Festival](http://thehopfarmmusicfestival.com/) im Juli 2014 auftreten würde. Das war für Martin R. aus R. Anlass, einen Wochenendtrip nach London zu planen, dessen krönender Abschluss ebenjenes Konzert sein sollte. Neben meiner Wenigkeit folgten auch Stefan H. und Joshua B. dem Aufruf des Martin R. &ndash; schließlich kann man sich ja eine solche Gelegenheit nicht entgehen lassen!
 

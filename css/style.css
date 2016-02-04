@@ -187,3 +187,7 @@ a:hover {
 #bottom-nav li:after {
     content: "]";
 }
+
+#modified-date {
+    font-size: 10pt;
+}
