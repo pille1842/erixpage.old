@@ -1,0 +1,23 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+    padding: .2em;
+}
+
+#content {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: .1em;
+    border-top: thick double black;
+    border-bottom: thick double black;
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 1em;
+}
